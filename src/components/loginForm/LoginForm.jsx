@@ -29,7 +29,7 @@ export const LoginForm = ()=>{
     const handleSubmit = (e)=>{
         e.preventDefault()
         setSubmitted(true)
-        axios.post('/login',{
+        axios.post('/api/login',{
             email:formData.username,
             password:formData.password
         })
