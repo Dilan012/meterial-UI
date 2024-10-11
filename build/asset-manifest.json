@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd8f2bb2.css",
+    "main.js": "/static/js/main.def47aca.js",
+    "static/js/453.a6a97343.chunk.js": "/static/js/453.a6a97343.chunk.js",
+    "static/media/car3.jpg": "/static/media/car3.97b48830099c3672a204.jpg",
+    "static/media/side1.jpg": "/static/media/side1.66cea646309a0845eeb7.jpg",
+    "static/media/mercedes.png": "/static/media/mercedes.965551737403ae652be6.png",
+    "static/media/volkswagen.png": "/static/media/volkswagen.98a0de29c1a9bfa8dc20.png",
+    "static/media/bmw.png": "/static/media/bmw.fa0ab9c1dddb911b0602.png",
+    "static/media/volvo.png": "/static/media/volvo.cc766373b4a0a7f850a0.png",
+    "static/media/land.png": "/static/media/land.3c57660e0cbc5d448afe.png",
+    "static/media/toyota.png": "/static/media/toyota.830c9a774a688c0fee9a.png",
+    "static/media/ford.png": "/static/media/ford.84afbfae89e83b16f1d2.png",
+    "static/media/opel.png": "/static/media/opel.872986932de47cd4c2b9.png",
+    "static/media/nissan.png": "/static/media/nissan.877235708376835aa5cb.png",
+    "index.html": "/index.html",
+    "main.cd8f2bb2.css.map": "/static/css/main.cd8f2bb2.css.map",
+    "main.def47aca.js.map": "/static/js/main.def47aca.js.map",
+    "453.a6a97343.chunk.js.map": "/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd8f2bb2.css",
+    "static/js/main.def47aca.js"
+  ]
+}
