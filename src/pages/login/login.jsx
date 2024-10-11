@@ -10,14 +10,26 @@ import ford from '../../assets/ford.png'
 import toyota from '../../assets/toyota.png'
 import land from '../../assets/land.png'
 import opel from '../../assets/opel.png'
-/*import alfa from '../../assets/alfa.png'*/
 import bmw from '../../assets/bmw.png'
 import { LoginForm } from "../../components/loginForm/LoginForm"
-import { Grid2, Link, Typography } from "@mui/material"
+import  Grid2 from "@mui/material/Grid2"
+import  Link from "@mui/material/Link"
+import Typography from "@mui/material/Typography" 
+import { useEffect, useState } from "react"
+import { Loading } from "../../components/loginForm/Loading"
 export const Login = ()=>{
-    const images = [  land,opel, ford ,volvo, toyota ,nissan,bmw, mercedes,volkswagen   ]
+    const [loading, setLoading] = useState(true)
+    const images = [  land,opel, ford ,volvo, toyota ,nissan,bmw, mercedes,volkswagen]
+     useEffect(()=>{
+        setTimeout(()=>{
+            setLoading(false)
+        },100)
+     })
+     
     return(
+        
     <Box className="login-back">
+        {loading ? <Loading style={{justifySelf:"center"}}/> : 
         <Container maxWidth="md" className="login-container">
             <Box className="login-form">
                 <Box className="login-header">
@@ -52,14 +64,17 @@ export const Login = ()=>{
                { <Box className="login-slogon">
                     <Typography style={{
                         background:"rgba(255,255,255,0.3)"
-                        ,color:"#ffffff"
+                        ,color:'#242424'
                         ,fontWeight:"700"
-                        ,width:"7rem"
+                        ,width:"12rem"
                         ,justifySelf:"left"
                         ,marginLeft:"2rem"
                         ,padding:"0.4rem"
-                    }}>
-                        Your Tavelling Partner
+                        ,fontFamily:"'Comic Sans MS', cursive, sans-serif"
+                        ,borderRadius:"0.2rem"
+                        ,boxShadow:"2px 2px 4px 0 #000000;"
+                    }} className="abc">
+                        Find Your Perfect Ride!
                     </Typography>
                     <Box style={{
                         borderBottom:"solid #ffffff 3px"
@@ -91,8 +106,8 @@ export const Login = ()=>{
                                             ,justifyContent:"center"
                                             }}>
                                             <img src={image} 
-                                                alt="Brand icon" 
-                                                style={{width:"4rem"}}/>
+                                                alt="Brand icon"
+                                                className="brand-icons"/>
                                         </Grid2>
                                     </>
                                 )
@@ -101,6 +116,7 @@ export const Login = ()=>{
                 </Box>    }
             </Box>
         </Container>
+        }
     </Box>
     )
 }
