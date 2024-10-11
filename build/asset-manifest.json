@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.cd8f2bb2.css",
-    "main.js": "/static/js/main.def47aca.js",
+    "main.js": "/static/js/main.2c6ef2f2.js",
     "static/js/453.a6a97343.chunk.js": "/static/js/453.a6a97343.chunk.js",
     "static/media/car3.jpg": "/static/media/car3.97b48830099c3672a204.jpg",
     "static/media/side1.jpg": "/static/media/side1.66cea646309a0845eeb7.jpg",
@@ -16,11 +16,11 @@
     "static/media/nissan.png": "/static/media/nissan.877235708376835aa5cb.png",
     "index.html": "/index.html",
     "main.cd8f2bb2.css.map": "/static/css/main.cd8f2bb2.css.map",
-    "main.def47aca.js.map": "/static/js/main.def47aca.js.map",
+    "main.2c6ef2f2.js.map": "/static/js/main.2c6ef2f2.js.map",
     "453.a6a97343.chunk.js.map": "/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd8f2bb2.css",
-    "static/js/main.def47aca.js"
+    "static/js/main.2c6ef2f2.js"
   ]
 }

@@ -90,7 +90,7 @@ export const LoginForm = ()=>{
                             <Button type="submit" 
                                 variant="contained"
                                 disabled={submitted ? true:false}                                
-                                >sign in</Button>
+                                >{submitted ? "signing in..." : "sign in"}</Button>
                         </FormControl>
                        
                         <FormControl>
